@@ -1,0 +1,70 @@
+.main-billboard{
+    position: relative;
+}
+.profile-image img{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    background-size: contain;
+    object-fit: cover;
+    width: 500px;
+    height: 500px;
+filter: drop-shadow(-3px -4px 4px #fba820);
+border-radius: 100%;
+}
+/* .profile-image{
+    margin-left: 100px;
+} */
+.sub-billboard{
+    padding-left: 190px;
+    margin-bottom: 230px;
+    padding-top: 250px;
+}
+.sub-title-board > h1{
+font-size: 70px;
+font-family: "Schibsted Grotesk", sans-serif;
+}
+.sub-title-board p::first-line{ /* use of pseudo element(::first-line)*/
+    text-decoration: underline;
+}
+.sub-title-board > h1 > span {
+    display: block;
+    color: #fba820;
+}
+.sub-title-board > p {
+    font-size: 25px;
+    color: gray;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.main-button{
+    margin-top: 40px;
+}
+.sub-button > a{
+font-size: 20px;
+font-family: "Schibsted Grotesk", sans-serif;
+text-decoration: none;
+padding: 20px 30px;
+border: 1px solid black;
+border-radius: 50px;
+border-color: #fba820;
+color: black;
+}
+.sub-button > a:hover{
+    background-color: #fba820;
+}
+.links{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 90px;
+    margin-bottom: 135px;
+}
+.link-items{
+    font-size: 16px;
+    margin-right: 40px;
+}
+.link-items > a >i{
+    color: black;
+}
