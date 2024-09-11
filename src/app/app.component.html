@@ -1,24 +1,29 @@
-<body>
+<body >
+    <main class="min-h-screen relative mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
     <header class="d-flex flex-wrap justify-content-around align-items-center py-3 mb-4">
         <div class="title">
             <span class="fs-1 text-[#16f2b3] text-4xl font-bold">Mujtaba Sohail Dar</span>
         </div>
         <div class="nav-bar">
             <ul class="nav nav-pills text-center">
-                <li class="nav-item"><a href="#" class="nav-link text-white fs-5 hover:text-pink-600">About</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fs-5 hover:text-pink-600">Experience</a>
+                <li class="nav-item"><a href="#about-me" class="nav-link text-white fs-5 hover:text-pink-600">About</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link text-white fs-5 hover:text-pink-600">Experience</a>
                 </li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fs-5 hover:text-pink-600">Skills</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fs-5 hover:text-pink-600">Education</a></li>
-                <li class="nav-item"><a href="#" class="nav-link text-white fs-5 hover:text-pink-600">Projects</a></li>
+                <li class="nav-item"><a href="#skills-Section" class="nav-link text-white fs-5 hover:text-pink-600">Skills</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link text-white fs-5 hover:text-pink-600">Education</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link text-white fs-5 hover:text-pink-600">Projects</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link text-white fs-5 hover:text-pink-600">Contact</a></li>
             </ul>
         </div>
 
     </header>
     <section class="relative flex flex-col items-center justify-center py-4 lg:py-12 my-12">
         <img alt="Hero" loading="lazy" width="1572" height="795" decoding="async" data-nimg="1"
-            class="absolute -top-[98px] -z-10" style="color:transparent" src="https://mughis.vercel.app/hero.svg">
-        <div class="grid sm:grid-cols-1  lg:grid-cols-2 lg:gap-12 gap-y-8 mx-auto container">
+            class="absolute -top-[98px] -z-10" style="color:transparent" src="https://mughis.vercel.app/hero.svg" >
+        <div class=" grid sm:grid-cols-1  lg:grid-cols-2 lg:gap-12 gap-y-8 mx-auto container" data-aos="fade-zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        data-aos-offset="0">
             <div class=" order-2 lg:order-1 flex flex-col  justify-center p-2 pb-20 md:pb-10 lg:pt-10">
                 <h1
                     class="text-3xl font-bold leading-10 text-white md:font-extrabold lg:text-[2.6rem] lg:leading-[3.5rem]">
@@ -61,7 +66,7 @@
                             </svg></a>
                     </div>
                 </div>
-                <div class="buttons d-flex gap-2">
+                <div class="buttons flex gap-2 flex-wrap">
                     <button>
                         <span href="#contact" class="text d-flex gap-2">Contact Me
                             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24"
@@ -187,12 +192,8 @@
             </div>
         </div>
     </section>
-    <section id="about-me  my-12">
+    <section id="about-me" class="container my-12">
         <div id="about" class="my-12 lg:my-16 relative">
-            <div class="hidden lg:flex flex-col items-center absolute top-16 -right-8">
-                <span class="bg-[#1a1443] w-fit text-white rotate-90 p-2 px-5 text-xl rounded-md">ABOUT ME</span>
-                <span class="h-36 w-[2px] bg-[#1a1443]"></span>
-            </div>
             <div class="grid sm:grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 lg:mx-14">
                 <div class="sm:order-2 sm:order-2 lg:order-1">
                     <p class="font-medium mb-5 text-[#16f2b3] text-xl uppercase">Who I am?</p>
@@ -215,7 +216,7 @@
         </div>
     </section>
     <div class="flex justify-center -translate-y-[1px] my-12"><div class="w-3/4"><div class="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full"></div></div></div>
-<section class="experience">
+<section id="experience">
 <div class="flex justify-center my-5 lg:py-8">
 <div class="flex  items-center">
 <span class="w-24 h-[2px] bg-[#1a1443]"></span>
@@ -223,10 +224,12 @@
 <span class="w-24 h-[2px] bg-[#1a1443]"></span>
 </div>
 </div>
-<div class="container grid grid-cols-1 lg:grid-cols-2">
-<div class="left-part"></div>
-<div class="right-part lg:flex justify-around sm:justify-around">
-<div class="h-[16em] w-[18em] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px]">
+<div class="container grid sm:grid-cols-1 lg:grid-cols-2 " data-aos="fade-up">
+<div class="left-part flex justify-center">
+        <dotlottie-player src="https://lottie.host/b98f4505-48cc-4060-bee8-6a4fda28aea2/mnKBoOQXRt.json" background="transparent" speed="1" class="w-2/3" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+</div>
+<div class="right-part container flex-col overflow-hidden flex-wrap ">
+<div class="h-[auto] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col grow shrink-0 gap-[0.75em] backdrop-blur-[12px] flex-wrap mb-8">
 <div class="text-center lg:flex justify-around sm:flex-col">
 <span class=" text-green-500 text-xl">June 2024 - August 2024</span>
 <h2 class=" text-3xl  text-left pt-8">Intern as an Angular Developer</h2>
@@ -236,7 +239,7 @@ Premier Solutions
 </div>
 
 </div>
-<div class="h-[16em] w-[18em] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px]">
+<div class="h-[auto] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] grow shrink-0 flex-wrap ">
         <div class="text-center flex justify-around flex-col">
         <span class=" text-green-500 text-xl">October 2022 - Present</span>
         <h2 class=" text-3xl  text-left pt-8">Self Employed</h2>
@@ -244,122 +247,110 @@ Premier Solutions
         Code and build something in everyday 
         </p>
         </div>
-        </div>
-<div>
-<div class="flex flex-col gap-6">
-</div>
 </div>
 </div>
 </div>
 </section>
+
+<!--  Start of Skill Section -->
+
 <div class="flex justify-center -translate-y-[1px] my-12"><div class="w-3/4"><div class="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full"></div></div></div>
-    <div class="flex justify-center my-5 lg:py-8">
-        
-        <div class="flex  items-center">
-            <span class="w-24 h-[2px] bg-[#1a1443]"></span>
-            <span class="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">Skills</span>
-            <span class="w-24 h-[2px] bg-[#1a1443]"></span>
-        </div>
-        
-    </div>
-    <section class="skills">
-        
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="left-part"></div>
-            <div class="right-part"></div>
-        </div>
-        
-        <div class="container flex justify-center">
-                <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                        <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                          <div class="flex -translate-y-[1px] justify-center">
-                            <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                          </div>
-                          <div class="flex flex-col items-center justify-center gap-3 p-6">
-                            <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/html.ed6aaa50.svg" style="color: transparent;" /></div>
-                            <p class="text-sm text-white sm:text-lg">Html</p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                            <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                              <div class="flex -translate-y-[1px] justify-center">
-                                <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                              </div>
-                              <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/css.e5e99f36.svg" style="color: transparent;" /></div>
-                                <p class="text-sm text-white sm:text-lg">CSS</p>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                  <div class="flex -translate-y-[1px] justify-center">
-                                    <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                  </div>
-                                  <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                    <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/javascript.b472cbc1.svg" style="color: transparent;" /></div>
-                                    <p class="text-sm text-white sm:text-lg">JavaScript</p>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                    <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                      <div class="flex -translate-y-[1px] justify-center">
-                                        <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                      </div>
-                                      <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                        <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/typescript.97711300.svg" style="color: transparent;" /></div>
-                                        <p class="text-sm text-white sm:text-lg">Typescript</p>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                        <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                          <div class="flex -translate-y-[1px] justify-center">
-                                            <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                          </div>
-                                          <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                            <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://th.bing.com/th/id/OIP.Klh1l7wkoG6PDPb9A5oCHQHaHa?rs=1&pid=ImgDetMain" style="color: transparent;" /></div>
-                                            <p class="text-sm text-white sm:text-lg">Angular</p>
-                                          </div>
-                                        </div>
-                                      </div>
-                                      <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                            <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                              <div class="flex -translate-y-[1px] justify-center">
-                                                <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                              </div>
-                                              <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                                <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/bootstrap.9e6ddba8.svg" style="color: transparent;" /></div>
-                                                <p class="text-sm text-white sm:text-lg">Bootstrap</p>
-                                              </div>
-                                            </div>
-                                          </div>
-                                          <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                                <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                                  <div class="flex -translate-y-[1px] justify-center">
-                                                    <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                                  </div>
-                                                  <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                                    <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/tailwind.c0bbaf6f.svg" style="color: transparent;" /></div>
-                                                    <p class="text-sm text-white sm:text-lg">Tailwind</p>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                              <div class="group relative m-3 flex h-fit w-36 min-w-fit cursor-pointer flex-col items-center justify-center rounded-lg transition-all duration-500 hover:scale-[1.15] sm:m-5">
-                                                    <div class="h-full w-full rounded-lg border border-[#1f223c] bg-[#11152c] shadow-none shadow-gray-50 transition-all duration-500 group-hover:border-violet-500">
-                                                      <div class="flex -translate-y-[1px] justify-center">
-                                                        <div class="w-3/4"><div class="h-[1px] w-full bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div></div>
-                                                      </div>
-                                                      <div class="flex flex-col items-center justify-center gap-3 p-6">
-                                                        <div class="h-8 sm:h-10"><img alt="Bootstrap" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/git.21d80414.svg" style="color: transparent;" /></div>
-                                                        <p class="text-sm text-white sm:text-lg">Git</p>
-                                                      </div>
-                                                    </div>
-                                                  </div>
-        </div>
-    </section>
+<div class="flex justify-center my-5 lg:py-8">
+
+<div class="flex  items-center">
+<span class="w-24 h-[2px] bg-[#1a1443]"></span>
+<span class="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">Skills</span>
+<span class="w-24 h-[2px] bg-[#1a1443]"></span>
+</div>
+
+</div>
+<section id="skills-Section">
+<div class="wrapper">
+<div class="item item1">        
+<div class="min-w-36 h-full  flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/html.ed6aaa50.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">HTML</p>
+</div>
+</div></div>
+<div class="item item2">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/css.e5e99f36.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">CSS</p>
+</div>
+</div>
+</div>
+<div class="item item3">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/javascript.b472cbc1.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Javascript</p>
+</div>
+</div>
+</div>
+<div class="item item4">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/typescript.97711300.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Typescript</p>
+</div>
+</div>
+</div>
+<div class="item item5">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://th.bing.com/th/id/OIP.Klh1l7wkoG6PDPb9A5oCHQHaHa?rs=1&pid=ImgDetMain" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Angular</p>
+</div>
+</div>
+</div>
+<div class="item item6">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/tailwind.c0bbaf6f.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Tailwind</p>
+</div>
+</div>
+</div>
+<div class="item item7">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/bootstrap.9e6ddba8.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Bootstrap</p>
+</div>
+</div>
+</div>
+<div class="item item8">
+<div class="min-w-36 h-full flex flex-col items-center justify-center transition-all duration-500 m-3 sm:m-5 rounded-lg border border-[#1f223c] group relative hover:scale-[1.15] cursor-pointer hover:border-violet-500">
+<div class="flex flex-col items-center justify-center gap-3 p-6">
+<div class="h-8 sm:h-10">
+<img alt="Firebase" loading="lazy" width="40" height="40" decoding="async" data-nimg="1" class="h-full w-auto rounded-lg" src="https://mughis.vercel.app/_next/static/media/git.21d80414.svg" style="color: transparent;">
+</div>
+<p class="text-white text-sm sm:text-lg">Git</p>
+</div>
+</div>
+
+</div>
+</div>                 
+
+</section>
+
+<!--  End of Skill Section -->
     <div class="flex justify-center -translate-y-[1px] my-12"><div class="w-3/4"><div class="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full"></div></div></div>
     <div class="flex justify-center my-5 lg:py-8">
         <div class="flex  items-center">
@@ -369,15 +360,13 @@ Premier Solutions
             <span class="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
     </div>
-    <section class="education">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="left-part"></div>
-            <div class="right-part"></div>
-        </div>
+    <section id="education">
     <div class="container grid grid-cols-1 lg:grid-cols-2">
-        <div class="left-part"></div>
-        <div class="right-part flex-col">
-                <div class="h-[9em] w-[45em] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col">
+        <div class="left-part flex justify-center">
+                <dotlottie-player src="https://lottie.host/cecd7e84-48a3-458c-9290-d8ad3f5ec5ed/Qljz3CobJi.json" background="transparent" speed="1" class="w-1/2" direction="1" playMode="normal" loop autoplay></dotlottie-player>
+        </div>
+        <div class="right-part container flex-col ">
+                <div class="h-[auto]  border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col flex-wrap overflow-hidden grow shrink-0" data-aos="fade-up">
                         <div class="text-center lg:flex justify-around sm:flex-col justify-center gap-2">
                         <span class=" text-green-500 text-md">October 2022 - Present</span>
                         <h2 class=" text-2xl  text-left">BS Information Engineering Technology</h2>
@@ -386,7 +375,7 @@ Premier Solutions
                         </p>
                         </div>
                         </div>
-                        <div class="h-[9em] w-[45em] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col my-4">
+                        <div class="h-[auto]  border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col my-4 overflow-hidden grow shrink-0 flex-wrap " data-aos="fade-up">
                                 <div class="text-center lg:flex justify-around sm:flex-col justify-center gap-2">
                                 <span class=" text-green-500 text-md">2020 - 2022</span>
                                 <h2 class=" text-2xl  text-left">Intermediate In Computer Science</h2>
@@ -395,7 +384,7 @@ Premier Solutions
                                 </p>
                                 </div>
                                 </div>
-                                <div class="h-[9em] w-[45em] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col">
+                                <div class="h-[auto] border-2 border-[rgba(75,30,133,0.5)] rounded-[1.5em] bg-gradient-to-br from-[rgba(75,30,133,1)] to-[rgba(75,30,133,0.01)] text-white font-nunito p-[1em] flex-col gap-[0.75em] backdrop-blur-[12px] flex-col overflow-hidden grow shrink-0 flex-wrap " data-aos="fade-up">
                                         <div class="text-center lg:flex justify-around sm:flex-col justify-center gap-2">
                                         <span class=" text-green-500 text-md">2018 - 2020</span>
                                         <h2 class=" text-2xl  text-left">Matriculation</h2>
@@ -415,12 +404,8 @@ Premier Solutions
             <span class="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
     </div>
-    <section class="projects">
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="left-part"></div>
-            <div class="right-part"></div>
-        </div>
-<div class="container lg:flex sm::flex-col justify-around">
+<section id="projects">
+<div class="container flex flex-wrap justify-center gap-5">
 <div class="project card text-white">
 <img src="https://th.bing.com/th/id/R.74de32e14de594ea151e750e8f7edeeb?rik=F9k%2bG4U53IUXHA&pid=ImgRaw&r=0" class="card-img-top" alt="...">
 <div class="card-body">
@@ -485,7 +470,7 @@ Premier Solutions
             <span class="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
     </div>
-    <section class="contact">
+    <section id="contact">
         <div class="grid grid-cols-1 lg:grid-cols-2">
             <div class="left-part">
                     <div class="w-full max-w-md mx-auto p-6  rounded-lg">
@@ -493,15 +478,18 @@ Premier Solutions
                             <form>
                               <div class="mb-4">
                                 <label for="name" class="block text-gray-700 font-bold mb-2 text-lg text-white">Your Name:</label>
-                                <input placeholder="Mujtaba" type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" required>
+                                <input placeholder="Mujtaba" type="text" id="name" class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" required>
                               </div>
                               <div class="mb-4">
                                 <label for="email" class="block text-gray-700 font-bold mb-2 text-lg text-white">Your Email:</label>
-                                <input placeholder="Example@gmail.com" type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" required>
+                                <input placeholder="Example@gmail.com" type="email" id="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" required>
                               </div>
                               <div class="mb-6">
                                 <label for="message" class="block text-gray-700 font-bold mb-2 text-lg text-white">Message:</label>
-                                <textarea placeholder="Your message" id="message" class="shadow appearance-none border rounded py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" required></textarea>
+                                <textarea placeholder="Your message" id="message" class="shadow appearance-none border rounded py-2 px-3 text-white leading-tight focus:outline-none focus:shadow-outline" data-aos="fade-up"
+                                data-aos-anchor-placement="center-bottom" required></textarea>
                               </div>
                               <div class="flex items-center justify-center">
                                 <button  type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Send Message</button>
@@ -537,50 +525,28 @@ Premier Solutions
         </div>
         </div>
     </section>
-    <footer>
-        <div class="grid grid-cols-1 lg:grid-cols-2">
-            <div class="left-part"></div>
-            <div class="right-part"></div>
+    <a  data-aos="fade-up" href="#"  class="fixed bottom-8 right-6 z-50 flex items-center rounded-full bg-gradient-to-r from-pink-500 to-violet-600 p-4 hover:text-xl hover:text-[#0d1224] transition-all duration-300 ease-out text-[#0d1224]"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 384 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"></path>
+    </svg>
+</a>
+    <footer class="mt-5">
+<div class="relative border-t bg-[#0d1224] border-[#353951] text-white">
+<div class="mx-auto px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem] py-6 lg:py-10">
+    <div class="flex justify-center -z-40">
+        <div class="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent">
         </div>
+    </div>
+    <div class="flex flex-col md:flex-row items-center justify-between">
+        <p class="text-sm lg:text-lg">© Developer Portfolio by <a target="_blank" class="text-[#16f2b3]" href="www.linkedin.com/in/mujtaba-sohail-dar-27937b280">Mujtaba Sohail Dar</a></p>
+        <div class="flex items-center gap-5">
+            <a target="_blank" class="flex items-center gap-2 uppercase hover:text-[#16f2b3]" href="https://github.com/MDar123">
+                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M394 480a16 16 0 01-9.39-3L256 383.76 127.39 477a16 16 0 01-24.55-18.08L153 310.35 23 221.2a16 16 0 019-29.2h160.38l48.4-148.95a16 16 0 0130.44 0l48.4 149H480a16 16 0 019.05 29.2L359 310.35l50.13 148.53A16 16 0 01394 480z"></path>
+                </svg><span class="text-sm lg:text-lg">Star</span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
     </footer>
-    <!-- <section id="contact">
-        <div class="footer-container">
-            <div class="footer-top">
-                <div class="footer-data">
-                    <h1>Lets Work Together</h1>
-                    <p>I’m available for freelance work.Have any projects in your mind? Just feel free to contact me</p>
-                    <a href="">Contact Me</a>
-                </div>
-            </div>
-            <div class="footer-botom">
-                <div class="footer-text">
-                    <p>© 2024 Mujtaba Dar. All Rights Reserved by Mujtaba Dar</p>
-                </div>
-                <div class="footer-icons">
-                    <ul class="link">
-                        <li class="link-item">
-                            <a href="">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li class="link-item">
-                            <a href="">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li class="link-item">
-                            <a href="">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li class="link-item">
-                            <a href="">
-                                <i class="fa-brands fa-pinterest"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section> -->
+  </main>
 </body>

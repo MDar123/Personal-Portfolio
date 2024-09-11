@@ -1,6 +1,7 @@
 body{
   background-color: #0d1224;
   color: #ffffff;
+  scroll-behavior: smooth;
 }
 .text-white {
 --tw-text-opacity: 1;
@@ -9,7 +10,7 @@ color: rgb(255 255 255/var(--tw-text-opacity));
 
 /* Contact me button */
  /* Start  */
-button {
+.buttons button {
   align-items: center;
   background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
   border: 0;
@@ -34,12 +35,12 @@ button {
   transition: all .3s;
  }
  
- button:active,
+ .buttons button:active,
  button:hover {
   outline: 0;
  }
  
- button span {
+ .buttons button span {
   background-color: rgb(5, 6, 45);
   padding: 16px 24px;
   border-radius: 6px;
@@ -48,11 +49,11 @@ button {
   transition: 300ms;
  }
  
- button:hover span {
+ .buttons button:hover span {
   background: none;
  }
  
- button:active {
+ .buttons button:active {
   transform: scale(0.9);
  }
 
@@ -150,3 +151,132 @@ button {
     left: 100%;
   }
 }
+
+/* Making auto slider */
+
+/* start */
+.skills{
+position: relative;
+animation: 15s slide infinite linear ;
+}
+/* .skills::before{
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 200px;
+height: 100%;
+background-color: #0d1224;
+z-index: 2;
+}
+.skills::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #0d1224;
+  z-index: 2;
+  }  */
+.skills>.group{
+}
+.skills:hover{
+animation-play-state: paused;
+}
+@keyframes slide {
+from{
+transform: translateX(0%)
+}
+to{
+transform: translateX(-100%)
+}
+} 
+/* End */
+
+.project > img{
+width: 300px;
+height: 170px;
+flex-grow: 1;
+flex-shrink: 0;
+flex-wrap: wrap
+}
+#mybutton{
+display: none;
+}
+
+/* Making Slider  */
+
+/* Start */
+
+
+
+ .wrapper {
+  width: 90%;
+  max-width: 1536px;
+  margin-inline: auto;
+  position: relative;
+  height: 180px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 20%,
+    rgba(0, 0, 0, 1) 80%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -200px;
+  }
+}
+
+.item {
+  border-radius: 6px;
+  position: absolute;
+  left: max(calc(200px * 8), 100%);
+  animation-name: scrollLeft;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.wrapper:hover .item{
+animation-play-state: paused;
+}
+
+.item1 {
+  animation-delay: calc(30s / 8 * (8 - 1) * -1);
+}
+
+.item2 {
+  animation-delay: calc(30s / 8 * (8 - 2) * -1);
+}
+
+.item3 {
+  animation-delay: calc(30s / 8 * (8 - 3) * -1);
+}
+
+.item4 {
+  animation-delay: calc(30s / 8 * (8 - 4) * -1);
+}
+
+.item5 {
+  animation-delay: calc(30s / 8 * (8 - 5) * -1);
+}
+
+.item6 {
+  animation-delay: calc(30s / 8 * (8 - 6) * -1);
+}
+
+.item7 {
+  animation-delay: calc(30s / 8 * (8 - 7) * -1);
+}
+
+.item8 {
+  animation-delay: calc(30s / 8 * (8 - 8) * -1);
+}
+
+/* End  */
